@@ -1,0 +1,164 @@
+{
+  "uid" : "7be2d6adcbc36378",
+  "name" : "test_001",
+  "fullName" : "HomepageElementsTests.test_001",
+  "historyId" : "6301e6731f6985f20f4efc929a5163db",
+  "time" : {
+    "start" : 1509090708743,
+    "stop" : 1509090708887,
+    "duration" : 144
+  },
+  "description" : "Test homepage elements are present",
+  "descriptionHtml" : "<p>Test homepage elements are present</p>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1509090698849,
+      "stop" : 1509090700137,
+      "duration" : 1288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1509090700138,
+      "stop" : 1509090706827,
+      "duration" : 6689
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "goToUrl",
+      "time" : {
+        "start" : 1509090700152,
+        "stop" : 1509090706827,
+        "duration" : 6675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "http://meta.ua/"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "elementIsPresent",
+      "time" : {
+        "start" : 1509090708776,
+        "stop" : 1509090708887,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on LINUX (6f5a7f343c72cc704b4bb64e4ee58dee)] -> id: sel-dir]"
+      }, {
+        "name" : "seconds",
+        "value" : "10"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1509090711338,
+      "stop" : 1509090711562,
+      "duration" : 224
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "HomepageElementsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "HomepageElementsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_001"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestTask"
+  }, {
+    "name" : "suite",
+    "value" : "HP Elements"
+  }, {
+    "name" : "subSuite",
+    "value" : "HomepageElementsTests"
+  }, {
+    "name" : "host",
+    "value" : "dimas-Studio-XPS-1640"
+  }, {
+    "name" : "thread",
+    "value" : "4628@dimas-Studio-XPS-1640.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "[[ChromeDriver: chrome on LINUX (6f5a7f343c72cc704b4bb64e4ee58dee)] -> id: sel-dir]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7be2d6adcbc36378.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "[[ChromeDriver: chrome on LINUX (6f5a7f343c72cc704b4bb64e4ee58dee)] -> id: sel-dir]" ]
+}

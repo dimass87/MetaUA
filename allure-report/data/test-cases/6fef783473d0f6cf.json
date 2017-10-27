@@ -1,0 +1,263 @@
+{
+  "uid" : "6fef783473d0f6cf",
+  "name" : "test_001",
+  "fullName" : "LoginTests.test_001",
+  "historyId" : "b1dae0b1ae0a830a8bf74dd8cab3ac10",
+  "time" : {
+    "start" : 1509090632130,
+    "stop" : 1509090642553,
+    "duration" : 10423
+  },
+  "description" : "Test with incorrect credentials / empty fields",
+  "descriptionHtml" : "<p>Test with incorrect credentials / empty fields</p>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1509090627777,
+      "stop" : 1509090631604,
+      "duration" : 3827
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1509090631605,
+      "stop" : 1509090631881,
+      "duration" : 276
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "goToUrl",
+      "time" : {
+        "start" : 1509090632218,
+        "stop" : 1509090639445,
+        "duration" : 7227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "http://meta.ua/"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "clearField",
+      "time" : {
+        "start" : 1509090639561,
+        "stop" : 1509090639765,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on LINUX (66adf9185c7183ad8399b17820c4ea2d)] -> xpath: //input[contains(@name, 'login')]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "setField",
+      "time" : {
+        "start" : 1509090639824,
+        "stop" : 1509090640014,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on LINUX (66adf9185c7183ad8399b17820c4ea2d)] -> xpath: //input[contains(@name, 'login')]]"
+      }, {
+        "name" : "text",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "clearField",
+      "time" : {
+        "start" : 1509090640102,
+        "stop" : 1509090640259,
+        "duration" : 157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on LINUX (66adf9185c7183ad8399b17820c4ea2d)] -> xpath: //input[contains(@name, 'password')]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "setField",
+      "time" : {
+        "start" : 1509090640385,
+        "stop" : 1509090640657,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on LINUX (66adf9185c7183ad8399b17820c4ea2d)] -> xpath: //input[contains(@name, 'password')]]"
+      }, {
+        "name" : "text",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1509090640737,
+        "stop" : 1509090642406,
+        "duration" : 1669
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on LINUX (66adf9185c7183ad8399b17820c4ea2d)] -> xpath: //input[contains(@value, 'Войти')]]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "getText",
+      "time" : {
+        "start" : 1509090642458,
+        "stop" : 1509090642537,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on LINUX (66adf9185c7183ad8399b17820c4ea2d)] -> xpath: //div[@id='b3_cnt']//b]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1509090668789,
+      "stop" : 1509090669003,
+      "duration" : 214
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_001"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestTask"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "dimas-Studio-XPS-1640"
+  }, {
+    "name" : "thread",
+    "value" : "4628@dimas-Studio-XPS-1640.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : ""
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "Неверное имя пользователя"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6fef783473d0f6cf.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "", "", "Неверное имя пользователя" ]
+}
